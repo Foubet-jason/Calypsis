@@ -1,0 +1,532 @@
+html{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  margin:0;
+  padding: 0;
+  background: #F9EFE2; /* Couleur de fond */
+  font-family: "Tajwal", "Arimo", Roboto, Arial ;
+}
+
+a{
+  text-decoration:none;
+  color: #F9D31E; /* Couleur logo jaune */
+}
+.police{
+  font-family: 'Tajawal', sans-serif;
+}
+/* Flex */
+.flex-space-around{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.all{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.blue{
+  color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header_____________________________________________________________________*/
+header{
+  background: #F9D31E; /* Couleur logo jaune */
+  /* width: 100%; */
+  margin: 0px;
+  height: 120px;
+  position: relative;
+  z-index: 0;
+}
+
+#gris{
+  width: 150px;
+  height: 120px;
+  background: #21254A; /* Couleur logo foncé */
+  margin: 0px;
+  margin-left: -10px;
+  margin-right: -50px;
+  position: relative;
+  z-index: -1;
+}
+
+/* Logotype*/
+#logo-header{  /* Image logo header */
+  text-align: center;
+  margin-left: -5px;
+}
+#logo-header img{  /* Image logo header */
+  width: 110px;
+  height: 125px;
+  z-index: 1000;
+}
+
+.picto-img{
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  text-align: center;
+  font-size: 29px;
+  margin-top: 25px;
+  background: #F9D31E; /* Couleur logo jaune */
+}
+.picto-img img{
+  height: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer_____________________________________________________________________*/
+footer{
+  width: 100%;
+  display: block;
+  margin: auto;
+  background: #21254A; /* Couleur logo foncé */
+  margin-top: 50px;
+  font-size: 15px;
+  bottom: 0px;
+}
+.footer-entete{
+  height: 50px;
+  background: #F9D31E; /* Couleur logo jaune */
+  border: 85px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-style: solid;
+  border-color: #21254A; /* Couleur logo foncé */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-img{
+  width: 200px;
+  height: 35px;
+  margin-left: -20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer-img img{
+  width: 35px;
+  height: 35px;
+}
+#logo-footer{
+  width: 48px;
+  height: 55px;
+  margin-top: -8px;
+  margin-left: -11px;
+}
+.footer-liste{
+  display: flex;
+  justify-content: space-around;
+}
+.footer-liste ul li{
+  padding-bottom: 3px;
+}
+.footer-liste-deco{
+  list-style:none;
+  text-decoration:none;
+  color: #F9D31E; /* Couleur logo jaune */
+}
+footer ul li{
+list-style:none;
+text-decoration:none;
+color: #F9D31E; /* Couleur logo jaune */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ACCUEIL____________________________________________________________________*/
+
+/*Vidéo de présentation*/
+.lecteur{
+  width: 750px;
+  height: 400px;
+  background: red;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 29px;
+}
+.lecteur video{
+  width: auto;
+  height: auto;
+
+}
+
+/* Choix gamme */
+.gamme-standard{
+  height: 400px;
+  background: orange;
+  text-align: center;
+}
+.gamme-standard img{
+  width: 400px;
+  height: 400px;
+
+}
+.gamme-artist{
+  width: 400px;
+  height: 400px;
+  background: blue;
+}
+.gamme-artist img{
+  width: 400px;
+  height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HISTOIRE___________________________________________________________________*/
+
+/*Titre*/
+#Histoire{
+  width: 250px;
+  height: 50px;
+  background: white;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 29px;
+  border: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+/* Paragraphe */
+#para-histoire{
+  width: 1000px;
+  height: 500px;
+  background: white;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 29px;
+  border: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+.text-histoire{
+  font-size: 20px;
+  justify-content: flex-start;
+  margin-left: 15px;
+}
+.text-histoire-gras{
+  color: #21254A; /* Couleur logo foncé */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT____________________________________________________________________*/
+
+/* Titre */
+.contact{
+  width: 250px;
+  height: 50px;
+  background: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 29px;
+  border: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.15);
+  }
+/* PARTIE GAUCHE */
+.left-contact{
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  margin-bottom: 30px;
+}
+.img-contact{
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 29px;
+}
+/* PARTIE DROITE */
+.right-contact{
+  width: 1100px;
+  height: 950px;
+  background-color: green;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 29px;
+}
+.input-size-1{
+  height: 40px;
+}
+.input-size-2{
+  width: 50px;
+  height: 200px;
+}
+.center-contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.center-contact-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-contact{
+  position:absolute;
+  bottom:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* MAGASIN____________________________________________________________________*/
+
+.filtre-magasin{ /* Gauche */
+  background: white;
+  margin-top: 35px;
+  text-align: left;
+  border: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.15);
+
+}
+.texte-filtre-titre{
+  margin-left: -18px;
+  margin-bottom: 10px;
+  padding-top: 25px;
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.texte-filtre{
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.liste-produit{ /* Droite */
+  width: 1000px;
+  background: white;
+  margin-top: 35px;
+}
+
+/* BLOC ACHAT */
+/* TOP-LEFT */
+.liste-produit-top-left{
+  width: 300px;
+  margin-left: 30px; margin-top: 20px;
+}
+/* TOP-MID */
+.liste-produit-top-mid{
+  width: 300px;
+  margin-top: 20px; margin-left: 20px; margin-right: 0px;
+}
+/* TOP-RIGHT */
+.liste-produit-top-right{
+  width: 300px;
+  margin-top: 20px; margin-left: 20px;
+}
+/* BOTTOM-LEFT */
+.liste-produit-bottom-left{
+  width: 300px;
+  margin-left: 30px; margin-top: 20px;
+}
+/* BOTTOM-MID */
+.liste-produit-bottom-mid{
+  width: 300px;
+  margin-top: 20px; margin-left: 20px; margin-right: 0px;
+}
+/* BOTTOM-RIGHT */
+.liste-produit-bottom-right{
+  width: 300px;
+  margin-top: 20px; margin-left: 20px; margin-right: 0px;
+}
+
+/* DANS LE BLOC ACHAT */
+.liste-produit-titre{
+  width: 300px;
+  height: 50px;
+  background: white;
+  border: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.liste-produit-titre h1{
+  margin: 0px;
+  margin-top: 15px;
+  font-family: 'Tajawal', sans-serif;
+}
+.liste-produit-image{
+  width: 300px;
+  height: 300px;
+  background: black;
+  margin: 0px;
+  margin-top: 5px;
+}
+.liste-produit-description{
+  width: 300px;
+  height: 120px;
+  background: white;
+  border: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.15);
+  margin-top: 5px;
+}
+.liste-produit-description svg{
+  width: 25px;
+  height: 25px;
+}
+.liste-produit-prix{
+  width: 200px;
+  height: 50px;
+  margin-left: 50px;
+  text-align: center;
+  font-size: 23px;
+  margin-top: 27px;
+  border: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+.star{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.avis{
+  width: 75px;
+  font-family: 'Tajawal', sans-serif;
+  margin-top: 0px;
+  margin-left: 7px;
+}
+.marg-list-produit{
+  margin-top: 25px;
+}
+
+/* PRODUIT____________________________________________________________________*/
+
+.titre-photo-produit{
+  margin-top: 25px;
+}
+.bloc-photo-produit{
+  background: white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.grande-photo-produit{
+  background: white;
+  border: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+}
+.grande-photo-produit img{
+  width: 400px;
+  height: 400px;
+  margin-top: 30px;
+}
+.liste-photo-produit{
+  background: white;
+  border: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+.liste-photo-produit img{
+  width: 150px;
+  height: 150px;
+}
+.paragraphe-produit{
+  background: white;
+  border: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+.bouton-row-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.bouton-column img{
+  height: 50px;
+  margin-left: 0px;
+}
+
+/* PANIER_____________________________________________________________________*/
+.bloc-panier-princ{
+  background: orange;
+  height: 400px;
+}
+.bloc-panier{
+  background: yellow;
+}

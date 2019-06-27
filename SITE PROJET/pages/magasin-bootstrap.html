@@ -1,0 +1,542 @@
+<!doctype html>
+
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Catalogue</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Arimo|Tajawal&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/logo-Copie.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+
+
+  <body>
+    <div class="container-fluid">
+      <!--En tête -->
+      <!--En tête -->
+      <header class="row">
+        <div id="gris" class="col-2"></div>
+        <div id="logo-header"><a href="../index.html"><img src="../img/logo.png" alt=""></a></div>
+        <div id="picto" class="col-8"> <!-- Div  -->
+          <div class="row">
+            <div class="col-9"></div>
+            <!-- Pictogramme Loupe -->
+            <div class="col-4 col-xl-1">
+              <svg class="picto-img" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+              width="50" height="50"
+              viewBox="0 0 192 192"
+              style=" fill:#000000;"><g transform=""><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="#f9d31e"></path><g id="original-icon" fill="#21254a"><g id="surface1"><path d="M80.64,11.52c-36.015,0 -65.28,29.265 -65.28,65.28c0,36.015 29.265,65.28 65.28,65.28c14.25,0 27.42,-4.59 38.16,-12.36l50.52,50.4l10.8,-10.8l-49.92,-50.04c9.81,-11.43 15.72,-26.265 15.72,-42.48c0,-36.015 -29.265,-65.28 -65.28,-65.28zM80.64,19.2c31.86,0 57.6,25.74 57.6,57.6c0,31.86 -25.74,57.6 -57.6,57.6c-31.86,0 -57.6,-25.74 -57.6,-57.6c0,-31.86 25.74,-57.6 57.6,-57.6z"></path></g></g><path d="" fill="none"></path><path d="" fill="none"></path></g></g></svg> <!--  -->
+              <!--  -->
+            </div>
+            <!-- Pictogramme Utilisateur -->
+            <div  class="col-4 col-xl-1">
+              <svg class="picto-img" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+              width="50" height="50"
+              viewBox="0 0 192 192"
+              style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="#f9d31e"></path><g fill="#21254a"><g id="surface1"><path d="M133.635,129.795c-6.525,-2.685 -14.595,-6.15 -14.595,-8.835v-17.28c9.6,-7.29 15.36,-18.81 15.36,-30.72v-23.04c0,-21.12 -17.28,-38.4 -38.4,-38.4c-21.12,0 -38.4,17.28 -38.4,38.4v23.04c0,11.91 5.76,23.805 15.36,30.72v17.28c0,2.31 -8.07,5.76 -14.595,8.835c-15.735,6.525 -39.165,16.515 -39.165,43.005v3.84h153.6v-3.84c0,-26.49 -23.43,-36.48 -39.165,-43.005z"></path></g></g></g></svg>
+              <!--  -->
+            </div>
+            <!-- Pictogramme Panier -->
+            <div class="col-4 col-lg-1">
+              <a href="panier.html"><img class="picto-img" src="../img/panier.png" alt="Pictogramme représentant un panier"></a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+    <!-- div de copntenu -->
+    <div class="all row">
+      <div class="col-0 col-md-1"></div>
+
+      <!-- FILTRE DE RECHERCHE__________________________________________________ -->
+      <section class="col-3 col-lg-2 marg-list-produit">
+        <article class="filtre-magasin row">
+          <nav>
+            <!-- TYPE D'ENCRE -->
+            <ul class="type-encre">
+              <li class="texte-filtre-titre col-4"><b>Type d'encre</b></li>
+              <!-- Stylo -->
+              <li class="texte-filtre">
+                <div>
+                  <input type="checkbox" name="stylo" id="stylo"> <!-- case à cocher-->
+                  <label for="stylo">Stylo</label> <!-- texte apres la case -->
+                </div>
+              </li>
+              <!-- Encre de Chine -->
+              <li class="texte-filtre">
+                <div>
+                  <input type="checkbox" name="eacrylique" id="acrylique"> <!-- case à cocher-->
+                  <label for="acrylique">Acrylique</label> <!-- texte apres la case -->
+                </div>
+              </li>
+              <!-- Aquarelle -->
+              <li class="texte-filtre">
+                <div>
+                  <input type="checkbox" name="aquarelle" id="aquarelle"> <!-- case à cocher-->
+                  <label for="aquarelle">Aquarelle</label> <!-- texte apres la case -->
+                </div>
+              </li>
+              <!-- Encre a alcool -->
+              <li class="texte-filtre">
+                <div>
+                  <input type="checkbox" name="encre_a_alcool" id="encre_a_alcool"> <!-- case à cocher-->
+                  <label for="encre-a-alcool">Alcool</label> <!-- texte apres la case -->
+                </div>
+              </li>
+              <li class="texte-filtre col-12"> <a class="blue">Plus...</a> </li>
+            </ul>
+
+
+            <!-- COULEUR -->
+            <ul>
+              <li class="texte-filtre-titre"><b>Couleur</b></li>
+              <!-- Noir -->
+              <li class="texte-filtre">
+            <div>
+              <input type="checkbox" name="noir" id="noir"> <!-- case à cocher-->
+              <label for="noir">Noir</label> <!-- texte apres la case -->
+            </div>
+          </li>
+          <!-- Rouge -->
+          <li class="texte-filtre">
+            <div>
+              <input type="checkbox" name="rouge" id="rouge"> <!-- case à cocher-->
+              <label for="rouge">Rouge</label> <!-- texte apres la case -->
+            </div>
+          </li>
+          <!-- Bleu -->
+          <li class="texte-filtre">
+            <div>
+              <input type="checkbox" name="bleu" id="bleu"> <!-- case à cocher-->
+              <label for="bleu">Bleu</label> <!-- texte apres la case -->
+            </div>
+          </li>
+          <!-- Jaune -->
+          <li class="texte-filtre">
+            <div>
+              <input type="checkbox" name="jaune" id="jaune"> <!-- case à cocher-->
+              <label for="jaune">Jaune</label> <!-- texte apres la case -->
+            </div>
+          </li>
+          <!-- Marron -->
+          <li class="texte-filtre">
+            <div>
+              <input type="checkbox" name="marron" id="marron"> <!-- case à cocher-->
+              <label for="marron">Marron</label> <!-- texte apres la case -->
+            </div>
+          </li>
+          <!-- Violet -->
+          <li class="texte-filtre">
+            <div>
+              <input type="checkbox" name="violet" id="violet"> <!-- case à cocher-->
+              <label for="violet">Violet</label> <!-- texte apres la case -->
+            </div>
+          </li>
+          <!-- Vert -->
+          <li class="texte-filtre">
+            <div>
+              <input type="checkbox" name="vert" id="vert"> <!-- case à cocher-->
+              <label for="vert">Vert</label> <!-- texte apres la case -->
+            </div>
+          </li>
+          <li class="texte-filtre"><a class="blue">Plus...</a></li>
+        </ul>
+
+        <!-- PRIX -->
+        <ul>
+          <li class="texte-filtre-titre"><b>Prix</b></li>
+          <li class="texte-filtre">0-5€</li>
+          <li class="texte-filtre">5-10€</li>
+          <li class="texte-filtre">10-20€</li>
+          <li class="texte-filtre">20-30€</li>
+          <li class="texte-filtre">30-40€</li>
+          <li class="texte-filtre">40€ et plus</li>
+        </ul>
+      </nav>
+    </article>
+  </section>
+
+  <!-- PRODUIT AFFICHES ______________________________________________________ -->
+  <section class=" col-8 col-lg-9 ">
+    <article class="liste-produit row">
+      <!-- TOP-LEFT _________________________________________________________-->
+    <a href="produit.html" class="texte-filtre">
+      <div class="col-12 col-lg-4  marg-list-produit">
+        <div class="liste-produit-titre">
+          <h5 class="mt-2">Recharge encre de chine</h5>
+        </div>
+        <!-- IMAGE -->
+        <div class="liste-produit-image">
+          <img src="../img/coffret-stylo.jpg" alt="" width="300px" height="300px">
+        </div>
+        <!-- DESCRIPTION -->
+        <div class="liste-produit-description">
+          <div class="liste-produit-prix"> <h1 class="police">45,00€</h1> </div>
+
+          <div class="star">
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+
+            <!-- ETOILE VIDE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#21254a"><g id="surface1"><path d="M95.52,0c-1.395,0.165 -2.595,1.08 -3.12,2.4l-24,59.52l-63.96,4.44c-1.53,0.15 -2.82,1.185 -3.3,2.655c-0.465,1.455 -0.015,3.06 1.14,4.065l49.2,41.16l-15.6,62.28c-0.39,1.515 0.195,3.12 1.455,4.05c1.275,0.915 2.97,0.975 4.305,0.15l54.36,-34.08l54.36,34.08c1.335,0.825 3.03,0.765 4.305,-0.15c1.26,-0.93 1.845,-2.535 1.455,-4.05l-15.6,-62.28l49.2,-41.16c1.155,-1.005 1.605,-2.61 1.14,-4.065c-0.48,-1.47 -1.77,-2.505 -3.3,-2.655l-63.96,-4.44l-24,-59.52c-0.645,-1.65 -2.325,-2.64 -4.08,-2.4zM96,14.28l21.24,52.8c0.555,1.38 1.875,2.325 3.36,2.4l56.76,3.84l-43.68,36.6c-1.14,0.975 -1.605,2.52 -1.2,3.96l13.92,55.32l-48.36,-30.36c-1.245,-0.78 -2.835,-0.78 -4.08,0l-48.36,30.36l13.92,-55.32c0.405,-1.44 -0.06,-2.985 -1.2,-3.96l-43.68,-36.6l56.76,-3.84c1.485,-0.075 2.805,-1.02 3.36,-2.4z"></path></g></g></g></svg>
+            <!--  -->
+
+            <p class="avis">Avis(324)</p>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <!-- TOP-MID __________________________________________________________-->
+    <a href="produit.html" class="texte-filtre">
+      <div class="col-12 col-lg-4  marg-list-produit">
+        <div class="liste-produit-titre">
+          <h5 class="mt-2">Coffret stylo</h5>
+        </div>
+        <!-- IMAGE -->
+        <div class="liste-produit-image">
+          <img src="../img/coffret-stylo.jpg" alt="" width="300px" height="300px">
+        </div>
+        <!-- DESCRIPTION -->
+        <div class="liste-produit-description">
+          <div class="liste-produit-prix"> <h1 class="police">47,90€</h1> </div>
+
+          <div class="star">
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+
+            <!-- ETOILE VIDE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#21254a"><g id="surface1"><path d="M95.52,0c-1.395,0.165 -2.595,1.08 -3.12,2.4l-24,59.52l-63.96,4.44c-1.53,0.15 -2.82,1.185 -3.3,2.655c-0.465,1.455 -0.015,3.06 1.14,4.065l49.2,41.16l-15.6,62.28c-0.39,1.515 0.195,3.12 1.455,4.05c1.275,0.915 2.97,0.975 4.305,0.15l54.36,-34.08l54.36,34.08c1.335,0.825 3.03,0.765 4.305,-0.15c1.26,-0.93 1.845,-2.535 1.455,-4.05l-15.6,-62.28l49.2,-41.16c1.155,-1.005 1.605,-2.61 1.14,-4.065c-0.48,-1.47 -1.77,-2.505 -3.3,-2.655l-63.96,-4.44l-24,-59.52c-0.645,-1.65 -2.325,-2.64 -4.08,-2.4zM96,14.28l21.24,52.8c0.555,1.38 1.875,2.325 3.36,2.4l56.76,3.84l-43.68,36.6c-1.14,0.975 -1.605,2.52 -1.2,3.96l13.92,55.32l-48.36,-30.36c-1.245,-0.78 -2.835,-0.78 -4.08,0l-48.36,30.36l13.92,-55.32c0.405,-1.44 -0.06,-2.985 -1.2,-3.96l-43.68,-36.6l56.76,-3.84c1.485,-0.075 2.805,-1.02 3.36,-2.4z"></path></g></g></g></svg>
+            <!--  -->
+
+            <p class="avis">Avis(324)</p>
+          </div>
+        </div>
+      </div>
+    </a>
+
+
+
+    <!-- TOP-RIGHT -->
+    <a href="produit.html" class="texte-filtre">
+      <div class="col-12 col-lg-4 marg-list-produit">
+        <div class="liste-produit-titre">
+          <h5 class="mt-2">Coffret plume</h5>
+        </div>
+        <!-- IMAGE -->
+        <div class="liste-produit-image">
+          <img src="../img/coffret-stylo.jpg" alt="" width="300px" height="300px">
+        </div>
+        <!-- DESCRIPTION -->
+        <div class="liste-produit-description">
+          <div class="liste-produit-prix"> <h1 class="police">65,50€</h1> </div>
+
+          <div class="star">
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+
+            <!-- ETOILE VIDE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#21254a"><g id="surface1"><path d="M95.52,0c-1.395,0.165 -2.595,1.08 -3.12,2.4l-24,59.52l-63.96,4.44c-1.53,0.15 -2.82,1.185 -3.3,2.655c-0.465,1.455 -0.015,3.06 1.14,4.065l49.2,41.16l-15.6,62.28c-0.39,1.515 0.195,3.12 1.455,4.05c1.275,0.915 2.97,0.975 4.305,0.15l54.36,-34.08l54.36,34.08c1.335,0.825 3.03,0.765 4.305,-0.15c1.26,-0.93 1.845,-2.535 1.455,-4.05l-15.6,-62.28l49.2,-41.16c1.155,-1.005 1.605,-2.61 1.14,-4.065c-0.48,-1.47 -1.77,-2.505 -3.3,-2.655l-63.96,-4.44l-24,-59.52c-0.645,-1.65 -2.325,-2.64 -4.08,-2.4zM96,14.28l21.24,52.8c0.555,1.38 1.875,2.325 3.36,2.4l56.76,3.84l-43.68,36.6c-1.14,0.975 -1.605,2.52 -1.2,3.96l13.92,55.32l-48.36,-30.36c-1.245,-0.78 -2.835,-0.78 -4.08,0l-48.36,30.36l13.92,-55.32c0.405,-1.44 -0.06,-2.985 -1.2,-3.96l-43.68,-36.6l56.76,-3.84c1.485,-0.075 2.805,-1.02 3.36,-2.4z"></path></g></g></g></svg>
+            <!--  -->
+
+            <p class="avis">Avis(324)</p>
+          </div>
+        </div>
+      </div>
+    </a>
+
+
+    <!-- BOTTOM-LEFT -->
+    <a href="produit.html" class="texte-filtre">
+      <div class="col-12 col-lg-4 marg-list-produit">
+        <div class="liste-produit-titre">
+          <h5 class="mt-2">Boite élégance grise</h5>
+        </div>
+        <!-- IMAGE -->
+        <div class="liste-produit-image">
+          <img src="../img/coffret-stylo.jpg" alt="" width="300px" height="300px">
+        </div>
+        <!-- DESCRIPTION -->
+        <div class="liste-produit-description">
+          <div class="liste-produit-prix"> <h1 class="police">112,00€</h1> </div>
+
+          <div class="star">
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+
+            <!-- ETOILE VIDE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#21254a"><g id="surface1"><path d="M95.52,0c-1.395,0.165 -2.595,1.08 -3.12,2.4l-24,59.52l-63.96,4.44c-1.53,0.15 -2.82,1.185 -3.3,2.655c-0.465,1.455 -0.015,3.06 1.14,4.065l49.2,41.16l-15.6,62.28c-0.39,1.515 0.195,3.12 1.455,4.05c1.275,0.915 2.97,0.975 4.305,0.15l54.36,-34.08l54.36,34.08c1.335,0.825 3.03,0.765 4.305,-0.15c1.26,-0.93 1.845,-2.535 1.455,-4.05l-15.6,-62.28l49.2,-41.16c1.155,-1.005 1.605,-2.61 1.14,-4.065c-0.48,-1.47 -1.77,-2.505 -3.3,-2.655l-63.96,-4.44l-24,-59.52c-0.645,-1.65 -2.325,-2.64 -4.08,-2.4zM96,14.28l21.24,52.8c0.555,1.38 1.875,2.325 3.36,2.4l56.76,3.84l-43.68,36.6c-1.14,0.975 -1.605,2.52 -1.2,3.96l13.92,55.32l-48.36,-30.36c-1.245,-0.78 -2.835,-0.78 -4.08,0l-48.36,30.36l13.92,-55.32c0.405,-1.44 -0.06,-2.985 -1.2,-3.96l-43.68,-36.6l56.76,-3.84c1.485,-0.075 2.805,-1.02 3.36,-2.4z"></path></g></g></g></svg>
+            <!--  -->
+
+            <p class="avis">Avis(324)</p>
+          </div>
+        </div>
+      </div>
+    </a>
+
+
+
+    <!-- BOTTOM-MID -->
+    <a href="produit.html" class="texte-filtre">
+      <div class="col-12 col-lg-4 marg-list-produit">
+        <div class="liste-produit-titre">
+          <h5 class="mt-2">Boite élégance noire</h5>
+        </div>
+        <!-- IMAGE -->
+        <div class="liste-produit-image">
+          <img src="../img/coffret-stylo.jpg" alt="" width="300px" height="300px">
+        </div>
+        <!-- DESCRIPTION -->
+        <div class="liste-produit-description">
+          <div class="liste-produit-prix"> <h1 class="police">112,00€</h1> </div>
+
+          <div class="star">
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+            <!-- ETOILE VIDE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#21254a"><g id="surface1"><path d="M95.52,0c-1.395,0.165 -2.595,1.08 -3.12,2.4l-24,59.52l-63.96,4.44c-1.53,0.15 -2.82,1.185 -3.3,2.655c-0.465,1.455 -0.015,3.06 1.14,4.065l49.2,41.16l-15.6,62.28c-0.39,1.515 0.195,3.12 1.455,4.05c1.275,0.915 2.97,0.975 4.305,0.15l54.36,-34.08l54.36,34.08c1.335,0.825 3.03,0.765 4.305,-0.15c1.26,-0.93 1.845,-2.535 1.455,-4.05l-15.6,-62.28l49.2,-41.16c1.155,-1.005 1.605,-2.61 1.14,-4.065c-0.48,-1.47 -1.77,-2.505 -3.3,-2.655l-63.96,-4.44l-24,-59.52c-0.645,-1.65 -2.325,-2.64 -4.08,-2.4zM96,14.28l21.24,52.8c0.555,1.38 1.875,2.325 3.36,2.4l56.76,3.84l-43.68,36.6c-1.14,0.975 -1.605,2.52 -1.2,3.96l13.92,55.32l-48.36,-30.36c-1.245,-0.78 -2.835,-0.78 -4.08,0l-48.36,30.36l13.92,-55.32c0.405,-1.44 -0.06,-2.985 -1.2,-3.96l-43.68,-36.6l56.76,-3.84c1.485,-0.075 2.805,-1.02 3.36,-2.4z"></path></g></g></g></svg>
+            <!--  -->
+
+            <p class="avis">Avis(324)</p>
+          </div>
+        </div>
+      </div>
+    </a>
+
+
+
+    <!-- BOTTOM-RIGHT -->
+    <a href="produit.html" class="texte-filtre">
+      <div class="col-12 col-lg-4 marg-list-produit">
+        <div class="liste-produit-titre">
+          <h4 class="mt-2">Coffret luxe en argent</h4>
+        </div>
+        <!-- IMAGE -->
+        <div class="liste-produit-image">
+          <img src="../img/coffret-stylo.jpg" alt="" width="300px" height="300px">
+        </div>
+        <!-- DESCRIPTION -->
+        <div class="liste-produit-description">
+          <div class="liste-produit-prix"> <h1 class="police">223,80€</h1> </div>
+
+          <div class="star">
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+            <!-- ETOILE PLEINE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#f9d31e"><g id="surface1"><path d="M152.43,181.35c-0.705,0 -1.425,-0.195 -2.04,-0.6l-54.39,-34.14l-54.39,34.14c-1.32,0.84 -3.03,0.78 -4.29,-0.135c-1.275,-0.915 -1.86,-2.52 -1.47,-4.05l15.66,-62.265l-49.275,-41.175c-1.2,-1.005 -1.665,-2.64 -1.185,-4.14c0.48,-1.485 1.83,-2.535 3.39,-2.64l64.065,-4.35l23.925,-59.58c0.585,-1.455 2.01,-2.415 3.57,-2.415c1.56,0 2.985,0.96 3.57,2.415l23.925,59.58l64.065,4.35c1.56,0.105 2.91,1.155 3.39,2.64c0.48,1.5 0.015,3.12 -1.185,4.14l-49.275,41.175l15.66,62.265c0.39,1.53 -0.195,3.12 -1.47,4.05c-0.66,0.48 -1.455,0.735 -2.25,0.735z"></path></g></g></g></svg>
+            <!--  -->
+
+          <!-- ETOILE VIDE -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 192 192"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#21254a"><g id="surface1"><path d="M95.52,0c-1.395,0.165 -2.595,1.08 -3.12,2.4l-24,59.52l-63.96,4.44c-1.53,0.15 -2.82,1.185 -3.3,2.655c-0.465,1.455 -0.015,3.06 1.14,4.065l49.2,41.16l-15.6,62.28c-0.39,1.515 0.195,3.12 1.455,4.05c1.275,0.915 2.97,0.975 4.305,0.15l54.36,-34.08l54.36,34.08c1.335,0.825 3.03,0.765 4.305,-0.15c1.26,-0.93 1.845,-2.535 1.455,-4.05l-15.6,-62.28l49.2,-41.16c1.155,-1.005 1.605,-2.61 1.14,-4.065c-0.48,-1.47 -1.77,-2.505 -3.3,-2.655l-63.96,-4.44l-24,-59.52c-0.645,-1.65 -2.325,-2.64 -4.08,-2.4zM96,14.28l21.24,52.8c0.555,1.38 1.875,2.325 3.36,2.4l56.76,3.84l-43.68,36.6c-1.14,0.975 -1.605,2.52 -1.2,3.96l13.92,55.32l-48.36,-30.36c-1.245,-0.78 -2.835,-0.78 -4.08,0l-48.36,30.36l13.92,-55.32c0.405,-1.44 -0.06,-2.985 -1.2,-3.96l-43.68,-36.6l56.76,-3.84c1.485,-0.075 2.805,-1.02 3.36,-2.4z"></path></g></g></g></svg>
+            <!--  -->
+
+            <p class="avis">Avis(324)</p>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    </article>
+  </section>
+  </div>    <!-- div de copntenu -->
+
+
+  </div> <!-- div all -->
+    <!-- Footer __________________________________________________________ -->
+    <footer>
+      <!-- Entete -->
+      <div class="footer-entete">
+        <div class="footer-img">
+          <img id="logo-footer" src="../img/logo.png" alt="Logo de la marque Calypsis">
+          <img src="https://img.icons8.com/metro/52/000000/facebook.png">
+          <img src="https://img.icons8.com/metro/52/000000/instagram-new.png">
+          <img src="https://img.icons8.com/material/64/000000/youtube-play.png">
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer-liste">
+          <!-- Liste n°1 -->
+          <style media="screen">
+            li {color : #F9D31E}
+          </style>
+          <ul>
+            <li class="police footer-liste-deco"><b>NOUS CONTACTER</b></li>
+            <li> <a href="contact.html" class="police footer-liste-deco">Particulier</a></li>
+            <li> <a href="contact.html" class="police footer-liste-deco">Professionnel</a></li>
+          </ul>
+          <!-- Liste n°2 -->
+          <nav>
+            <ul>
+              <li> <b class="police">NAVIGATION</b></li>
+              <li>---</li>
+              <li> <a class="police footer-liste-deco" href="../index.html">Accueil</a></li>
+              <li> <a class="police footer-liste-deco" href="magasin-bootstrap.html">Notre catalogue</a></li>
+              <li> <a class="police footer-liste-deco" href="panier.html">Votre panier</a></li>
+              <li> <a class="police footer-liste-deco" href="histoire.html">Notre histoire</a></li>
+            </ul>
+          </nav>
+          <!-- Liste n°3 -->
+          <ul>
+            <li> <b class="police">LEGAL</b></li>
+            <li>---</li>
+            <li class="police"> Conditions générales d'utilisation</li>
+            <li class="police"> Mentions Légales</li>
+            <li class="police"> Politique des Cookies et Pixels</li>
+            <li class="police"> Politique de Confidentialité</li>
+          </ul>
+        </div> <!-- footer-liste -->
+      </div> <!-- footer -->
+    </footer>
+  </body>
+</html>
